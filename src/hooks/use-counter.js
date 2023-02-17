@@ -1,4 +1,4 @@
-import React from "react";
+import { useState, useEffect } from "react";
 
 const useCounter = () => {
   const [counter, setCounter] = useState(0);
@@ -12,6 +12,8 @@ const useCounter = () => {
       clearInterval(interval);
     };
   }, []);
+
+  return counter;
 };
 
 export default useCounter;
