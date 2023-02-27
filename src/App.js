@@ -6,8 +6,8 @@ import ForwardCounter from "./components/ForwardCounter";
 function App() {
   return (
     <>
-      <BackwardCounter />
       <ForwardCounter />
+      <BackwardCounter />
     </>
   );
 }
